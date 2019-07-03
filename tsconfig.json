@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "types": ["react", "webpack-env"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": false,
+    "strict": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
+}
